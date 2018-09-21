@@ -1,0 +1,14 @@
+.errorMsg {
+	border: 1px solid red;
+	color: red;
+}
+
+.formErrorElement {
+	border: 1px solid red;
+	background-color: #ffd3d3;
+}
+
+.serverNotice {
+	color: green;
+	border: green;
+}

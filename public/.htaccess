@@ -1,0 +1,7 @@
+AddDefaultCharset UTF-8
+
+RewriteEngine on
+Options +FollowSymlinks
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*) /?%{QUERY_STRING}
